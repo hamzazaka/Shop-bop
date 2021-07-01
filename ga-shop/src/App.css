@@ -95,5 +95,24 @@ header{
 }
 .product-image img{
   width: 100%;
-  
+
+}
+.product-details{
+  padding: 15px 10px;
+  text-align: center;
+  background: var(--whiteColor);
+  border-left: 1px solid #fafafa;
+
+}
+
+.product-name{
+  font-size: 18px;
+  font-weight:500;
+  margin: 12px 0;
+}
+.product-price{
+  font-size: 20px;
+  font-weight: 300;
+  margin: 12px 0;
+
 }
