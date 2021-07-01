@@ -1,15 +1,24 @@
+import {Link} from 'react-router-dom';
+
 export default function Navbar(){
     return(
         <nav>
             <ul className='left'>
-                <li><a href="">GA Shop</a></li>
+                <li><Link to="/">GA Shop</Link></li>
+            </ul>
+            <ul className='left' >
+                <li><Link to="/About">About</Link></li>
+            </ul>
+            <ul className='left' >
+                <li><Link to="/Contact">Contact Us
+                </Link></li>
             </ul>
             <ul className='right'>
-                <li><a href=''>
+                <li><Link to='/cart'>
                     <span className="shoppingCart"><i class="fas fa-shopping-cart"></i>
                     <span className='cartCount'>0</span>
                     </span>
-                    </a></li>
+                    </Link></li>
             </ul>
         </nav>
     )

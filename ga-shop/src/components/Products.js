@@ -1,5 +1,26 @@
-// import {useState, useEffect} from 'react';
-export default function Products({product}){
+import {useState, useEffect} from 'react';
+// import Banner from "../components/Banner";
+export default function Products(props){
+    const [product,getProduct]=useState([]);
+    const FAKE_API='https://fakestoreapi.com/products/';
+    
+      //  const getUser= async()=>{
+      //      const response=await fetch(FAKE_API);
+      //      const data= await response.json();
+      //      getProduct(data);
+           
+      //  }
+    
+       useEffect(()=>{
+        const getUser= async()=>{
+          const response=await fetch(FAKE_API);
+          const data= await response.json();
+          getProduct(data);
+          
+      }
+        
+           getUser()
+       },[])
     console.log(product);
     // props.product.map((hello)=>{
     //     console.log(hello.price)
@@ -26,6 +47,8 @@ export default function Products({product}){
 //    },[])
 
     return(
+        <>
+        <h1> Best Selling Products</h1>
         <div className="products">{product.map((hello)=>{
             return(
             <div className='product' key={hello.id} >
@@ -40,9 +63,11 @@ export default function Products({product}){
                        ${hello.price}
                      </div>
              </div>
+             <div className="add-to-cart" >Add to Cart</div>
             </div> 
             )
         })}</div>
+       </>
 
 
 
