@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <>
-        <div class="about-section">
+        <div className="about-section">
         <h1>SHOP BOP</h1>
         <p>The go-to online retail destination for modern style, Shopbop offers a comprehensive, hand-picked collection of apparel and accessories from the industry’s foremost contemporary and designer labels. Since its launch in 2000 as a denim-focused e-commerce platform, Shopbop has grown into one of the world’s leading fashion authorities. Along with renowned customer service, Shopbop delivers unparalleled wardrobe advice, cutting-edge editorial lookbooks, innovative features, and exclusive collaborations with forward-minded brands. The result is a highly personalized, satisfying, and—above all—fun shopping experience that caters to style-minded women around the globe.</p>
         

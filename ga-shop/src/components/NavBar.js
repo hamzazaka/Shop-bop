@@ -15,7 +15,7 @@ export default function Navbar(){
             </ul>
             <ul className='right'>
                 <li><Link to='/cart'>
-                    <span className="shoppingCart"><i class="fas fa-shopping-cart"></i>
+                    <span className="shoppingCart"><i className="fas fa-shopping-cart"></i>
                     <span className='cartCount'>0</span>
                     </span>
                     </Link></li>
