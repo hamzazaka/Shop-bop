@@ -2,22 +2,16 @@ import {useState, useEffect} from 'react';
 // import Banner from "../components/Banner";
 export default function Products(props){
     const [product,getProduct]=useState([]);
-    const FAKE_API='https://fakestoreapi.com/products/';
+    // const FAKE_API='https://fakestoreapi.com/products/';
     
-      //  const getUser= async()=>{
-      //      const response=await fetch(FAKE_API);
-      //      const data= await response.json();
-      //      getProduct(data);
+       const getUser= async()=>{
+           const response=await fetch('https://fakestoreapi.com/products/');
+           const data= await response.json();
+           getProduct(data);
            
-      //  }
+       }
     
        useEffect(()=>{
-        const getUser= async()=>{
-          const response=await fetch(FAKE_API);
-          const data= await response.json();
-          getProduct(data);
-          
-      }
         
            getUser()
        },[])
@@ -48,6 +42,13 @@ export default function Products(props){
 
     return(
         <>
+         <div className="container">
+            <header>
+               <div className='headerText'>
+                   <h1>Best GA Prodcuts on Sale</h1>
+               </div>
+            </header>
+        </div>
         <h1> Best Selling Products</h1>
         <div className="products">{product.map((hello)=>{
             return(
