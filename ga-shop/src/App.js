@@ -6,6 +6,7 @@ import About from './components/AboutUs';
 import Contact from "./components/Contact"
 import { Route, Switch} from 'react-router-dom'
 import Cart from './components/Cart';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -29,6 +30,7 @@ function App() {
               render={() => <Contact />}
             />
        </Switch>
+       <Footer/>
     </div>
   );
 }

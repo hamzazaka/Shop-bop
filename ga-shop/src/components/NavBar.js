@@ -4,7 +4,7 @@ export default function Navbar(){
     return(
         <nav>
             <ul className='left'>
-                <li><Link to="/">GA Shop</Link></li>
+                <li><Link to="/">ShopBop</Link></li>
             </ul>
             <ul className='left' >
                 <li><Link to="/About">About</Link></li>

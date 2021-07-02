@@ -93,6 +93,7 @@ header{
 .product-image{
   width : 100%;
   height: 200px;
+  background-color: grey;
 
 }
 .product-image img{
@@ -240,3 +241,22 @@ button{
 /* .header-text{
   text-align: left;
 } */
+h3{
+  text-align: center;
+}
+.button1{
+  background-color: var(--mainColor); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+}
+.button1div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

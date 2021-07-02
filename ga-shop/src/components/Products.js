@@ -16,36 +16,16 @@ export default function Products(props){
            getUser()
        },[])
     console.log(product);
-    // props.product.map((hello)=>{
-    //     console.log(hello.price)
-    // })
-
-    // product.map((hello)=>{
-    //     return(
-    //         <li>{hello.price}</li>
-    //     )
-    // })
-
-//   const [product,getProduct]=useState();
-// const FAKE_API='https://fakestoreapi.com/products/';
-
-//    const getUser= async()=>{
-//        const response=await fetch(FAKE_API);
-//        const data= await response.json();
-//        getProduct(data);
-
-//    }
-
-//    useEffect(()=>{
-//        getUser()
-//    },[])
 
     return(
         <>
          <div className="container">
             <header>
                <div className='headerText'>
-                   <h1>Best GA Prodcuts on Sale</h1>
+                   <h1>Get 25% Off on Woman's Jacket</h1>
+                   <div className='button1div'>
+                   <button className='button1' >Shop Now</button>
+                   </div>
                </div>
             </header>
         </div>
@@ -69,18 +49,5 @@ export default function Products(props){
             )
         })}</div>
        </>
-
-
-
-        // <h1>hello</h1>
-        // <h1>{product.map((hello)=>{
-        //     return(
-        //         <>
-        //         <h2>hello</h2>
-        //     <li>{hello.price}</li>
-        //     </>
-        //     )
-        // })}</h1>
-        // <h1>hello</h1>
     )
 }
