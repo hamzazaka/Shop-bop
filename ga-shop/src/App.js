@@ -8,6 +8,8 @@ import { Route, Switch} from 'react-router-dom'
 import Cart from './components/Cart';
 import Footer from './components/Footer';
 function App() {
+  
+  
   return (
     <div>
       
