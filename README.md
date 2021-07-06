@@ -1,47 +1,70 @@
-# Shop-Bop
-  Shop-Bop is an Ecommerce website just (last year I was working on the some of the shopify stores so thats how I got the idea of working on my own store right building everything from scratch, It is a department store. The store sells electronics, clothing, and jewelry. Each category has a link provided for you to navigate easily through the site.
-This project was deployed to netlify, heres the link: "Link Coming Soon"
+# Getting Started with Create React App
 
-# Inspiration For The Project
-          Everyone Loves to Shop Online, its booming in these days and ecommerce has been grown into billions of dollars of industry. I personally love to shop online and that is the reason I built this by using an api
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# MVP GOALS
-Have a nav with all the components linked to it.
-I did not want the clothing / products to just be rendered onto the page immediately.
-The components must each act as a source of it’s own being that they were different categories.
-Have at least one API fetch call to render the required info for the clothing, electronics, and jewelry.
-Stretch Goals
-To have another component composed of another API call for some Rick and Morty Fun. ( I had this idea come to me, when some of the stores I had often visited online, always have a page for random photos of customers, and since I don’t have actual testimonials from customers, I decided to have a little fun.)
-Have a cart with some functionality, where you click remove for all the items in the cart. 3 I would like to add music to my homepage just for some fun.
-Implement useRedux.
-Use Bootstrap.
-Wireframing
-Scan.pdf
+## Available Scripts
 
-# Technologies Used
+In the project directory, you can run:
 
-Javascript
-React
-CSS
-React-router-dom
-React-Bootstrap
+### `yarn start`
 
-# Getting STARTED TO USE THE APP
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1.Fork 
-2. Clone down the repo.
-3. Once it’s in your remote repository, cd into the file (make sure you're in the react file). Install dependencies. 
-4. Yarn add react-bootstrap. 
-5. Yarn add react-router-dom. 
-6. Once you have the dependencies on the forked and clone version in your remote repository, run Yarn start. -If you notice, your package.json file should have all the dependencies and their versions listed under the dependencies. -Another thing you can notice is that your file should have a yarn.lock, and the node modules. -You should be set to go after these.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-# HOW TO CONTRIBUTE
+### `yarn test`
 
-You can add and increment (+) and decrement (-) amount for the cart purchases on each item
-Add some music to the homepage or the Rick and Morty page.
-There can be other components to build out the store more, like shoes, and bags.
-Validation for the cart component like the consumers card used and their email info.
-Some styling, instead of using Bootstrap and creating a card for each item in your own css styling and making it web-responsive.
-Refactor using redux.
-A special thank you to the API creators that made it possible to make this project come together:
-https://fakestoreapi.com/ created by MohammadReza Keikavousi
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
